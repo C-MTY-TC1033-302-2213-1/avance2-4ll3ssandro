@@ -2,8 +2,8 @@
 //A00839934
 //ITC
 // 20/05/2024
-//Esta actividad fue de ayuda para poder recordar lo que aprendi el semestre pasado
-//ya que llevaba alrededor de 6 meses de no programar en C++
+//Esta actividad me ayudo a recordar lo aprendido en relacion a POO 
+//del semestre pasado
 
 #ifndef Video_h
 #define Video_h

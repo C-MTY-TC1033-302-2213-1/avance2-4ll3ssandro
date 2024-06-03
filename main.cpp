@@ -28,8 +28,6 @@ Reflexión:
 #include "Pelicula.h"
 #include "Serie.h"
 #include "Polimorfismo.h"
-#include "Inventario1.csv"
-#include "Inventario2.csv"
 
 #include <string>
 using namespace std;
@@ -73,7 +71,7 @@ void polimorfismo(Polimorfismo inventario){
 
 int main() {
     // Declaracion de objetos
-    Polimorfismo netflix;
+    Polimorfismo neflix;
     int opcion;
 
     // leer la opcion
@@ -81,13 +79,13 @@ int main() {
 
     switch (opcion){
         case 1:
-           netflix.leerArchivo("Inventario1.csv");
-           polimorfismo(netflix);
+           neflix.leerArchivo("Inventario1.csv");
+           polimorfismo(neflix);
            break;
 
         case 2:
-          netflix.leerArchivo("Inventario2.csv");
-          polimorfismo(netflix);
+          neflix.leerArchivo("Inventario2.csv");
+          polimorfismo(neflix);
           break;
 
     default:

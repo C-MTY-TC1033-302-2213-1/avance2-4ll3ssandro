@@ -1,17 +1,24 @@
-//Rodrigo Alessandro Vela Mayorga
-//A00839934
-//ITC
-// 26/05/2024
+/*
+Añade por favor en cada clase este comentario con toda tu información 
+Nombre: Rodrigo Alessandro Vela Mayorga
+Matricula: A00839934
+Carrera: ITC
+Fecha: 02/06/2024
+Reflexión: En esta activida aprendi a poder utilizar el polimorfismo a traves de un ejemplo practico
+viendo el resultado que tiene al utilizarlo en el metodo str.
+*/
 
 #ifndef Polimorfismo_h
 #define Polimorfismo_h
-#include <typeinfo>
+#include <stdio.h>
 #include <iostream>
-#include <sstream>
 #include <fstream>
-#include "Pelicula.h"
+#include <math.h>
+#include <string>
+#include "Video.h"
 #include "Serie.h"
 #include "Episodio.h"
+#include "Pelicula.h"
 
 const int MAX_VIDEOS = 100;
 class Polimorfismo : public Video{
@@ -19,8 +26,6 @@ class Polimorfismo : public Video{
     Video* arrPtrVideos[MAX_VIDEOS];
     int cantidad;
     
-
-
     public:
     //Constructor default - vacio
     Polimorfismo();

@@ -2,9 +2,8 @@
 //A00839934
 //ITC
 // 20/05/2024
-//Esta actividad fue de ayuda para comprender el como se utiliza la herencia
-//ademas de poder poner en practica esto, ya que me es mas facil aprenderlo
-//al practicar, a diferencia de si me lo explican con pura teoria
+//En esta actividad me ayudo a conocer la funcion de la herencia al ponerla en practica para resolver el
+//ejercicio, dando como resultado un codigo mas limpio debido a su utilizacion
 
 #ifndef Pelicula_h
 #define Pelicula_h

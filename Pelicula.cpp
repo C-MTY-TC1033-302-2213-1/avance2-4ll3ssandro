@@ -2,6 +2,8 @@
 //A00839934
 //ITC
 // 20/05/2024
+//En esta actividad me ayudo a conocer la funcion de la herencia al ponerla en practica para resolver el
+//ejercicio, dando como resultado un codigo mas limpio debido a su utilizacion
 
 #include "Pelicula.h"
 

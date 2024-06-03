@@ -1,7 +1,14 @@
+/*
+Añade por favor en cada clase este comentario con toda tu información 
+Nombre: Rodrigo Alessandro Vela Mayorga
+Matricula: A00839934
+Carrera: ITC
+Fecha: 02/06/2024
+Reflexión: En esta activida aprendi a poder utilizar el polimorfismo a traves de un ejemplo practico
+viendo el resultado que tiene al utilizarlo en el metodo str.
+*/
 #include "Polimorfismo.h"
-#include <iostream>
-#include <string>
-#include <stdio.h>
+#include <sstream>
 using namespace std;
 
 //Constructor defaul-vacio
@@ -137,6 +144,7 @@ void Polimorfismo::leerArchivo(string _nombre){
     while (getline(entrada, line)){
         stringstream s(line);
         iR = 0;
+        
         while (getline(s ,word,',')){
             row[iR++] = word;
         }

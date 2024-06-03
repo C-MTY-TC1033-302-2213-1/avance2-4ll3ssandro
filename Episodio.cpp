@@ -2,7 +2,8 @@
 //A00839934
 //ITC
 // 20/05/2024
-
+//Esta actividad me ayudo a recordar lo aprendido en relacion a POO 
+//del semestre pasado
 
 #include "Episodio.h"
 using namespace std;

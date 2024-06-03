@@ -2,6 +2,9 @@
 //A00839934
 //ITC
 // 20/05/2024
+//Esta actividad fue de ayuda para comprender el como se utiliza la herencia
+//ademas de poder poner en practica esto, ya que me es mas facil aprenderlo
+//al practicar, a diferencia de si me lo explican con pura teoria.
 
 #include "Serie.h"
 using namespace std;
