@@ -14,11 +14,11 @@
 
 /*
 Añade por favor en cada clase este comentario con toda tu información 
-Nombre:
-Matricula:
-Carrera:
-Fecha: 
-Reflexión:
+Nombre: Rodrigo Alessandro Vela Mayorga
+Matricula: A00839934
+Carrera: ITC
+Fecha: 02/06/2024
+Reflexión: 
 - ¿Qué aprendí en el desarrollo de esta clase?
 */
 
@@ -28,6 +28,8 @@ Reflexión:
 #include "Pelicula.h"
 #include "Serie.h"
 #include "Polimorfismo.h"
+#include "Inventario1.csv"
+#include "Inventario2.csv"
 
 #include <string>
 using namespace std;
@@ -71,7 +73,7 @@ void polimorfismo(Polimorfismo inventario){
 
 int main() {
     // Declaracion de objetos
-    Polimorfismo neflix;
+    Polimorfismo netflix;
     int opcion;
 
     // leer la opcion
@@ -79,13 +81,13 @@ int main() {
 
     switch (opcion){
         case 1:
-           neflix.leerArchivo("Inventario1.csv");
-           polimorfismo(neflix);
+           netflix.leerArchivo("Inventario1.csv");
+           polimorfismo(netflix);
            break;
 
         case 2:
-          neflix.leerArchivo("Inventario2.csv");
-          polimorfismo(neflix);
+          netflix.leerArchivo("Inventario2.csv");
+          polimorfismo(netflix);
           break;
 
     default:
