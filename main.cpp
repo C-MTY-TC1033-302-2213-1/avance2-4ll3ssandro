@@ -14,12 +14,16 @@
 
 /*
 Añade por favor en cada clase este comentario con toda tu información 
-Nombre:
-Matricula:
-Carrera:
-Fecha: 
-Reflexión:
+Nombre: Rodrigo Alessandro Vela Mayorga
+Matricula: A00839934
+Carrera: ITC
+Fecha: 02/06/2024
+Reflexión: 
 - ¿Qué aprendí en el desarrollo de esta clase?
+En esta actividad fue de mucha ayuda para poder poner en practica todo lo que he aprendido
+a lo largo del curso, como lo es el polimorfismo, o la herencia, donde estos dos hacen que
+el codigo sea mucho mas limpio ya que cada parte esta en su propio archivo y solo tenemos
+que llamarlo al archivo en caso de que se necesiste
 */
 
 #include <iostream>
